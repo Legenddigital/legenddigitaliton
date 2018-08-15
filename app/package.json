@@ -1,0 +1,27 @@
+{
+  "name": "legenddigitaliton",
+  "productName": "legenddigitaliton",
+  "version": "1.2.1",
+  "description": "Cross-platform legenddigital gui based on Electron and React",
+  "main": "./main.js",
+  "author": {
+    "name": "Legenddigital Team",
+    "email": "info@legenddigital.org",
+    "url": "https://github.com/legenddigital"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "blake-hash": "^1.1.0",
+    "bs58check": "^2.1.1",
+    "electron-store": "1.2.0",
+    "fs-extra": "^5.0.0",
+    "grpc": "1.10.0",
+    "minimist": "^1.2.0"
+  },
+  "resolutions": {
+    "conf": "1.1.2"
+  },
+  "optionalDependencies": {
+    "win32ipc": "./modules/win32ipc"
+  }
+}

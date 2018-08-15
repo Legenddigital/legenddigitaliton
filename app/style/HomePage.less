@@ -1,0 +1,128 @@
+@import (reference) "./main.less";
+@import (reference) "./Icons.less";
+
+.overview-header {
+  padding: 56px 30px 10px 72px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.overview-balance {
+  font-size: 42px;
+  color: #0c1e3e;
+  font-family: Inconsolata;
+}
+
+.overview-balance-label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 11px;
+  color: #596d81;
+}
+
+.overview-balance-unit {
+  font-size: 17px;
+  color: #0c1e3e;
+}
+
+.overview-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.overview-spendable-locked-wrapper {
+  display: flex;
+  align-items: flex-end;
+  padding: 0px 0px 56px 56px;
+}
+
+.overview-transactions-ticket-wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  right: 0px;
+  top: 364px;
+  bottom: 0px;
+  left: 0px;
+  padding: 16px 60px 30px 60px;
+  background-color: #f3f5f6;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overview-balance-spendable-locked {
+  font-size: 17px;
+  color: #0c1e3e;
+  font-family: Inconsolata;
+  line-height: 1;
+}
+
+.overview-balance-spendable-locked-unit {
+  font-size: 11px;
+  color: #0c1e3e;
+  font-family: Inconsolata;
+  line-height: 1;
+}
+
+.overview-balance-spendable-locked-label {
+  font-size: 11px;
+  color: #596d81;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.recent-transactions {
+  width: 48%;
+}
+
+.home-content-title {
+  border-bottom: 1px solid transparent;
+  color: #596d81;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0px 0px 8px 16px;
+}
+
+.home-content-link {
+  color: #596d81;
+  margin: 5px 0px 0px 16px;
+  cursor: pointer;
+}
+
+.home-content-link > a:hover {
+  color: #091440;
+}
+
+.overview-no-transactions > a,
+.overview-no-tickets > a {
+  display: block;
+  background-color: #fff;
+  padding: 20px 20px 20px 48px;
+  background-repeat: no-repeat;
+  background-position: 16px 20px;
+  background-size: 20px;
+  text-decoration: none;
+  color: @input-color-default;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.overview-no-transactions > a.receive {
+  background-image: @generate-addr-icon;
+}
+
+.overview-no-transactions > a.buy {
+  background-image: @buy-legenddigital-icon;
+}
+
+.overview-no-tickets > a.purchaseTickets {
+  background-image: @dummy-icon;
+}
+
+.overview-no-tickets > a.whatIsStaking {
+  background-image: @what-is-staking-icon;
+}
+
+.overview-no-tickets > a.ticketLifeCycle {
+  background-image: @ticket-lifecycle-icon;
+}

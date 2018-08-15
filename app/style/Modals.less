@@ -1,0 +1,332 @@
+@import (reference) "./main.less";
+@import (reference) "./Icons.less";
+
+.app-modal-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+}
+
+.app-modal {
+  position: fixed;
+  background-color: #fff;
+  z-index: 200;
+}
+
+.app-modal.info-modal {
+  max-height: 70%;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+  z-index: 200;
+  border-radius: 5px;
+  overflow-y: auto;
+  background-color: rgba(12, 30, 62, 0.9);
+  box-shadow: 0 15px 34px 0 rgba(12, 30, 62, 0.34);
+  padding: 2em;
+  color: #fff;
+  line-height: normal;
+  text-align: left;
+}
+
+.info-modal-close-button {
+  position: absolute;
+  right: 2em;
+  top: 2em;
+}
+
+.info-modal-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #fff;
+}
+
+.info-modal-header-title {
+  font-size: 19px;
+  text-transform: capitalize;
+  height: 60px;
+  margin-bottom: 1em;
+}
+
+.info-modal-header-title > h1 {
+  margin-top: 0;
+}
+
+.app-modal.passphrase-modal {
+  left: 10%;
+  right: 10%;
+  top: 20%;
+  z-index: 200;
+  border-radius: 5px;
+  overflow-y: auto;
+  padding: 2em;
+  line-height: normal;
+  text-align: left;
+  color: #48566e;
+  box-shadow: 0 15px 34px 0 rgba(12, 30, 62, 0.34);
+}
+
+@media screen and (min-width: 768px) {
+  .app-modal.passphrase-modal {
+    left: 25%;
+    width: 500px;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  .app-modal.passphrase-modal {
+    top: 10%;
+    max-height: 60%;
+  }
+}
+
+.passphrase-modal-toolbar > .passphrase-modal-close-button {
+  margin-right: 10px;
+  float: left;
+}
+
+.passphrase-modal-header {
+  float: left;
+  background-image: @password;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  margin-bottom: 10px;
+}
+
+.passphrase-modal-header-title {
+  margin-left: 50px;
+  font-size: 27px;
+  text-transform: capitalize;
+  padding-top: 5px;
+}
+
+.passphrase-modal-content {
+  float: left;
+  width: 100%;
+}
+
+.passphrase-modal-header-description {
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 15px;
+  float: left;
+}
+
+.passphrase-modal-confirm-send {
+  width: 415px;
+}
+
+.passphrase-modal-confirm-send-label {
+  float: left;
+  width: 65%;
+  margin-top: 5px;
+}
+
+.passphrase-modal-confirm-send-address {
+  margin-left: 20px;
+  margin-top: 5px;
+  font-weight: 600;
+  float: right;
+}
+
+.passphrase-modal-confirm-send-balance {
+  margin-left: 20px;
+  font-weight: 600;
+  margin-top: 5px;
+  float: right;
+}
+
+.passphrase-modal-field {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.passphrase-modal-field-label {
+  font-size: 13px;
+  text-align: right;
+  width: 12em;
+  margin-right: 0.5em;
+  padding-top: 4px;
+}
+
+.passphrase-modal-field-value {
+  width: 300px;
+}
+
+.passphrase-modal-toolbar {
+  margin-top: 20px;
+  height: 44px;
+  float: right;
+}
+
+.info-modal-column {
+  float: left;
+  color: #fff;
+}
+
+.info-modal-row {
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 1em;
+  float: left;
+  width: 100%;
+  line-height: 20px;
+}
+
+.info-modal-row-label {
+  font-size: 17px;
+  font-weight: 600;
+  float: left;
+  width: 25%;
+  text-align: left;
+}
+
+.info-modal-row-label.highlight-blue {
+  color: #69d5f7;
+}
+
+.info-modal-row-label.highlight-green {
+  color: #2ed8a3;
+}
+
+.info-modal-row-text {
+  float: left;
+  width: 75%;
+  text-align: left;
+}
+
+.app-modal.confirm-seed-copy-modal {
+  left: 10%;
+  right: 10%;
+  top: 20%;
+  box-shadow: 0 15px 34px 0 rgba(12, 30, 62, 0.34);
+  border-radius: 5px;
+  overflow-y: auto;
+  padding: 2em;
+  color: rgba(12, 30, 62, 1);
+  line-height: normal;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .app-modal.confirm-seed-copy-modal {
+    left: 20%;
+    right: 20%;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  .app-modal.confirm-seed-copy-modal {
+    top: 10%;
+    max-height: 60%;
+  }
+}
+
+.confirm-seed-copy-modal-toolbar {
+  float: right;
+  margin-top: 2em;
+}
+
+.confirm-seed-copy-modal-toolbar > .confirm-modal-confirm-button {
+  float: right;
+}
+
+.confirm-seed-copy-modal-toolbar > .confirm-modal-close-button {
+  float: left;
+}
+
+.confirm-seed-copy-modal-header {
+  margin-bottom: 1em;
+}
+
+.confirm-seed-copy-modal-header-title {
+  font-weight: 400;
+  font-size: 27px;
+  text-transform: capitalize;
+}
+
+.app-modal.info-confirm-modal {
+  left: 446px;
+  width: 350px;
+  top: 243px;
+  height: 330px;
+  box-shadow: 0 15px 34px 0 rgba(12, 30, 62, 0.34);
+  border-radius: 5px;
+  overflow-y: auto;
+  padding: 29px 20px 29px 20px;
+  color: rgba(12, 30, 62, 1);
+  line-height: normal;
+  text-align: left;
+}
+
+.app-modal.confirm-modal {
+  left: 446px;
+  width: 289px;
+  top: 243px;
+  height: 239px;
+  box-shadow: 0 15px 34px 0 rgba(12, 30, 62, 0.34);
+  border-radius: 5px;
+  overflow-y: auto;
+  padding: 2em;
+  color: rgba(12, 30, 62, 1);
+  line-height: normal;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .app-modal.confirm-modal {
+    left: 446px;
+    width: 289px;
+    top: 243px;
+    height: 239px;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  .app-modal.confirm-modal {
+    left: 446px;
+    width: 289px;
+    top: 243px;
+    height: 239px;
+  }
+}
+
+.confirm-modal-toolbar {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.confirm-modal-toolbar > .confirm-modal-confirm-button {
+  float: right;
+}
+
+.confirm-modal-toolbar > .confirm-modal-close-button {
+  float: left;
+}
+
+.confirm-modal-header {
+  margin-bottom: 1em;
+}
+
+.confirm-modal-header-title {
+  font-weight: 400;
+  font-size: 27px;
+  text-transform: capitalize;
+}
+
+.confirm-seed-copy-warning-text {
+  white-space: pre-line;
+}
+
+.inverted-colors .confirm-seed-copy-modal-content input {
+  color: @input-color-default;
+}
+
+.confirm-seed-copy-phrase {
+  text-decoration: underline;
+  margin: 0px 4px 0px 4px;
+}

@@ -1,0 +1,151 @@
+@import (reference) "./main.less";
+@import (reference) "./Icons.less";
+
+.header-small-balance {
+  display: inline;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 0px 5px;
+  color: #0c1e3e;
+  background-color: #d4f0fd;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.header-get-started {
+  padding-right: 42px;
+  padding-left: 80px;
+  background-color: #596d81;
+}
+
+.header-top-get-started {
+  height: 34px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.header-title-overview-get-started {
+  height: 54px;
+  padding-top: 13px;
+  color: #fff;
+  font-size: 27px;
+}
+
+.header-meta-overview-get-started {
+  height: 54px;
+  padding-top: 5px;
+  font-size: 18px;
+  color: #c4cbd2;
+  font-family: Inconsolata, monospace;
+}
+
+.header-top {
+  text-align: center;
+}
+
+.header-title-overview {
+  padding-top: 14px;
+  color: #596d81;
+  font-size: 27px;
+}
+
+.header-meta-overview {
+  height: 54px;
+  padding-top: 5px;
+  font-size: 53px;
+}
+
+.header-icon-mixin {
+  height: 30px;
+  width: 30px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+
+.accounts {
+  .header-icon-mixin;
+
+  background-image: @accounts-page-icon;
+}
+
+.help {
+  .header-icon-mixin;
+
+  background-image: @help-page-icon;
+}
+
+.history {
+  .header-icon-mixin;
+
+  background-image: @wallet-gray-icon;
+}
+
+.mainnet {
+  float: left;
+  height: 20px;
+  width: 150px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-image: @menu-mainnet;
+}
+
+.minusBig {
+  .header-icon-mixin;
+
+  height: 60px;
+  background-image: @minus-big-icon;
+}
+
+.plusBig {
+  .header-icon-mixin;
+
+  height: 60px;
+  background-image: @plus-big-icon;
+}
+
+.security {
+  .header-icon-mixin;
+
+  background-image: @security-center-icon;
+}
+
+.settings {
+  .header-icon-mixin;
+
+  background-image: @settings-page-icon;
+}
+
+.testnet {
+  float: left;
+  height: 20px;
+  width: 150px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-image: @menu-testnet;
+}
+
+.tickets {
+  .header-icon-mixin;
+
+  background-image: @tickets-page-icon;
+}
+
+.ticketSmall {
+  .header-icon-mixin;
+
+  background-image: @ticket-small-icon;
+}
+
+.transactions {
+  .header-icon-mixin;
+
+  background-image: @transactions-page-icon;
+}
+
+.walletGray {
+  .header-icon-mixin;
+
+  background-image: @wallet-gray-icon;
+}

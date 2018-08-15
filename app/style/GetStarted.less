@@ -1,0 +1,507 @@
+@import (reference) "./main.less";
+@import (reference) "./Layout.less";
+@import (reference) "./Icons.less";
+
+.advanced-page-form {
+  width: 100%;
+  float: left;
+}
+
+.advanced-page-form.toggle {
+  padding-top: 25px;
+}
+
+.advanced-daemon-network {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.advanced-daemon-row {
+  float: left;
+  width: 75%;
+  height: 44px;
+  padding-top: 10px;
+}
+
+.advanced-daemon-label {
+  float: left;
+  width: 150px;
+  text-align: right;
+}
+
+.advanced-daemon-input {
+  padding-left: 20px;
+  float: left;
+  width: 295px;
+}
+
+.page-body.getstarted {
+  padding: 40px;
+  display: block;
+  background-color: #f7f8f9;
+  background-repeat: no-repeat;
+  background-image: @logo-launcher;
+  background-size: 173px;
+  background-position: 40px 40px;
+  z-index: 3;
+  height: 100%;
+}
+
+.getstarted {
+  color: #48566e;
+}
+
+.getstarted.loader.logs {
+  margin-left: 42px;
+  margin-top: 138px;
+
+  .loader-settings-logs {
+    position: fixed;
+    right: 55px;
+    top: 60px;
+    user-select: none;
+  }
+
+  .active {
+    color: #2970ff;
+  }
+
+  .settings-general {
+    width: 50%;
+  }
+
+  .settings-column-title {
+    font-size: 27px;
+  }
+
+  .log-container {
+    float: left;
+    margin-top: 10px;
+    max-height: 490px;
+    width: 100%;
+    overflow-y: scroll;
+  }
+}
+
+.getstarted.loader {
+  margin-top: 138px;
+  margin-left: 60px;
+
+  .tutorial-button {
+    background-color: #48566e;
+  }
+
+  .tutorial-button:hover {
+    background-color: rgba(72, 86, 110, 0.7);
+  }
+
+  .content-title {
+    font-size: 27px;
+    margin-bottom: 13px;
+    float: left;
+    width: 100%;
+  }
+
+  .loader-bar-buttons {
+    position: fixed;
+    right: 41px;
+    top: 415px;
+    user-select: none;
+
+    > .button:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  .loader-settings-logs {
+    position: fixed;
+    right: 55px;
+    top: 60px;
+    user-select: none;
+  }
+
+  .loader-buttons {
+    float: left;
+    margin-bottom: 90px;
+    width: 100%;
+  }
+
+  .loader-bar {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .loader-bar-icon {
+    position: absolute;
+    right: 37px;
+    top: 286px;
+
+    .loader-bar-icon-text {
+      float: left;
+      margin-top: 14px;
+      margin-right: 20px;
+    }
+
+    .new-logo-animation {
+      float: right;
+      margin: 0;
+      height: 50px;
+      width: 50px;
+      background-size: 50px;
+    }
+  }
+
+  .loader-bar-estimation {
+    float: left;
+    font-size: 9px;
+
+    .normal {
+      opacity: 0.5465;
+    }
+
+    .bold {
+      opacity: 1;
+    }
+  }
+
+  .go-back-screen-button {
+    height: 12px;
+    width: 12px;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-image: @x-grey;
+    right: 55px;
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  .go-back-screen-button:hover {
+    opacity: 0.7;
+  }
+}
+
+.loader-bar-bottom {
+  float: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  .loader-bar-estimation {
+    float: left;
+    font-size: 11px;
+    margin-left: 82px;
+  }
+}
+
+.getstarted.content {
+  margin-top: 55px;
+  margin-left: 280px;
+
+  .content-title {
+    font-size: 27px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+  }
+
+  .content-text {
+    font-size: 13px;
+    height: 250px;
+
+    .bold {
+      font-weight: 600;
+    }
+
+    .column {
+      float: left;
+      width: 300px;
+      margin-right: 32px;
+    }
+  }
+
+  .seedArea {
+    float: left;
+    width: 600px;
+  }
+
+  .seedWord {
+    user-select: none;
+    width: 100px;
+    height: 23px;
+    background-color: #48566e;
+    border-radius: 3px;
+    color: #fff;
+    margin: 5px;
+    float: left;
+    text-align: center;
+  }
+
+  .seedWord.error {
+    background-color: transparent;
+
+    .Select-control {
+      border: 1px solid #fd714b;
+      color: #48566e;
+    }
+
+    .Select-control:hover,
+    .Select-control:focus {
+      border: 1px solid #fd714b;
+    }
+  }
+
+  .seedWord.populated {
+    background-color: transparent;
+
+    .Select-control {
+      border: 1px solid #48566e;
+      color: #48566e;
+    }
+
+    .Select-control:hover,
+    .Select-control:focus {
+      border: 1px solid #959dac;
+    }
+  }
+
+  .seedWord.restore, {
+    background-color: transparent;
+
+    .Select-control {
+      border: 1px solid #d1d5db;
+      color: #48566e;
+    }
+
+    .Select-control:hover,
+    .Select-control:focus {
+      color: #0c1e3e;
+      border: 1px solid #959dac;
+    }
+  }
+
+  .toolbar {
+    width: 100%;
+    float: left;
+  }
+
+  .wallet-key-blue-button {
+    float: left;
+    box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.21);
+  }
+
+  .wallet-key-blue-button:hover {
+    box-shadow: none;
+  }
+
+  .copy {
+    margin-top: 90px;
+  }
+
+  .go-back-screen-button {
+    height: 12px;
+    width: 12px;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    background-image: @x-grey;
+    left: 971px;
+    opacity: 1;
+  }
+
+  .go-back-screen-button:hover {
+    opacity: 0.7;
+  }
+}
+
+.release-notes {
+  float: left;
+  height: 500px;
+  width: 100%;
+  overflow-y: auto;
+  margin-top: 20px;
+
+  .release-notes-text {
+    float: left;
+    font-size: 13px;
+    font-family: Helvetica, sans-serif;
+    width: 410px;
+  }
+
+  .release-notes-image {
+    float: right;
+    width: 590px;
+    height: 295px;
+    margin-top: 14px;
+    background-repeat: no-repeat;
+    background-size: 590px;
+    background-image: @release-image;
+  }
+}
+
+.whatsnew {
+  font-size: 13px;
+  margin-left: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.whatsnew:hover {
+  opacity: 0.7;
+}
+
+.display-wallet {
+  margin: 5px;
+  float: left;
+  height: 161px;
+  width: 168px;
+  border-radius: 5px;
+  border: 1px solid #f7f8f9;
+  background: linear-gradient(225deg, rgba(209, 213, 219, 1), rgba(149, 157, 172, 1));
+  font-size: 15px;
+
+  .wallet-icon {
+    margin-left: 54px;
+    height: 62px;
+    width: 62px;
+    background-repeat: no-repeat;
+    background-size: 45px 45px;
+    background-position: 8px 10px;
+    position: absolute;
+  }
+
+  .wallet-icon.wallet {
+    background-image: @wallet-gray-icon;
+  }
+
+  .wallet-icon.selected {
+    background-image: @accounts-button-hover-icon;
+  }
+
+  .wallet-icon.createnew {
+    background-size: 58px 58px;
+    background-position: 0px 5px;
+    background-image: @createnewwallet;
+  }
+
+  .wallet-icon.restore {
+    background-image: @restorewallet;
+  }
+}
+
+.display-wallet.new {
+  background: none;
+  background-color: #fff;
+}
+
+.display-wallet.new:hover {
+  color: #48566e;
+}
+
+.display-wallet-buttons {
+  text-align: center;
+}
+
+.display-wallet-button {
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 5px 5px;
+  box-shadow: 0px 3px 8px rgba(72, 86, 110, 0.34);
+}
+
+.display-wallet-button:hover {
+  box-shadow: 0px 1px 3px rgba(72, 86, 110, 0.34);
+}
+
+.display-wallet-button.start {
+  background-image: @launcher-wallet-activate;
+}
+
+.display-wallet-button.start:hover {
+  background-color: rgb(41, 112, 255);
+  background-image: @launcher-wallet-activate-hover;
+}
+
+.display-wallet-button.remove {
+  background-color: black;
+  background-image: @launcher-wallet-delete;
+}
+
+.display-wallet-button.remove:hover {
+  background-color: black;
+  background-image: @launcher-wallet-delete-hover;
+}
+
+.display-wallet:hover {
+  border: 1px solid #2970ff;
+  color: #fff;
+}
+
+.display-wallet.selected {
+  background: linear-gradient(45deg, rgb(41, 112, 255), rgb(110, 211, 243));
+  box-shadow: 0px 5px 21px rgba(72, 86, 110, 0.34);
+  border: 1px solid #2970ff;
+  color: #fff;
+}
+
+.display-wallet-complete {
+  min-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.display-wallet-network {
+  min-height: 20px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.display-wallet-name {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.display-wallet-name.selected {
+  font-size: 11px;
+  margin-top: 56px;
+}
+
+.text-toggle.network {
+  font-family: @font-family-monospaced;
+  font-size: 11px;
+  float: left;
+
+  .text-toggle-button-left,
+  .text-toggle-button-right {
+    opacity: 0.34;
+    min-width: 0px;
+    padding: 9px 25px;
+    color: rgba(72, 86, 110, 1);
+    background-color: transparent;
+    border: 1px solid rgba(72, 86, 110, 0.21);
+    transition: all 100ms @easeInOutQuart;
+  }
+
+  .text-toggle-button-active {
+    opacity: 1;
+    padding: 9px 13px 9px 36px;
+    border: 1px solid #2970ff;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 10px 10px;
+    background-image: @launcher-network-active;
+    color: #2970ff;
+  }
+}
+
+.get-started-last-log-lines {
+  font-size: 9px;
+}
