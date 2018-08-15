@@ -1,19 +1,19 @@
-# decrediton
+# legenddigitaliton
 
 [![Build Status](https://travis-ci.org/decred/decrediton.png?branch=master)](https://travis-ci.org/decred/decrediton)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
-decrediton is a cross-platform GUI for decred written in node.js using
+legenddigitaliton is a cross-platform GUI for decred written in node.js using
 Electron.
 
 ## Installation
 
 Currently decrediton is available on Windows, Linux, and macOS.
 
-Decrediton will NOT use or in any way disrupt the wallet file you may
+legenddigitaliton will NOT use or in any way disrupt the wallet file you may
 already be using at this time.
 
-Download the decrediton release for your operating system on [decred/decred-binaries](https://github.com/decred/decred-binaries/releases).
+Download the legenddigitaliton release for your operating system on [decred/decred-binaries](https://github.com/decred/decred-binaries/releases).
 
 On macOS, Ubuntu (14.04 and later), and recent Debians, there should be
 no additional dependencies needed.
@@ -42,7 +42,7 @@ and then run the file:
 This will start lddld and lddlwallet for you.
 
 On macOS, double-click the .dmg file, drag the .app to your
-Applications folder.  Double click on Decrediton.app to start.
+Applications folder.  Double click on legenddigitaliton.app to start.
 
 You can also install via [brew cask](https://caskroom.github.io):
 ```bash
@@ -96,18 +96,18 @@ yarn dev
 The following steps will help you configure your decrediton development environment and reduce future startup times.
 
 ### Wallet
-When you launch decrediton, you will be prompted to select a wallet to use. Select your wallet or create a new one using the in-app wizard. Be sure to save your seed and make your password memorable.
+When you launch legenddigitaliton, you will be prompted to select a wallet to use. Select your wallet or create a new one using the in-app wizard. Be sure to save your seed and make your password memorable.
 
 ### Decred Node
-It will be helpful to you to run the Decred node in a separate process and simply attach to it between decrediton restarts. In order to see the advanced daemon configuration options you open your ```config.json``` and set the ```daemon_start_advanced``` flag to ```true``` as follows:
+It will be helpful to you to run the Decred node in a separate process and simply attach to it between legenddigitaliton restarts. In order to see the advanced daemon configuration options you open your ```config.json``` and set the ```daemon_start_advanced``` flag to ```true``` as follows:
 
 ```"daemon_start_advanced": true,```
 
 Note: Your config.json file is located in the following directory(s)
 
-Windows - ```C:\Users\<your-username>\AppData\Local\Decrediton\config.json```
+Windows - ```C:\Users\<your-username>\AppData\Local\legenddigitaliton\config.json```
 
-OSX - ```$HOME/Library/Application\ Support/Decrediton/config.json```
+OSX - ```$HOME/Library/Application\ Support/legenddigitaliton/config.json```
 
 Linux - ```~/.config/decrediton/config.json```
 
@@ -153,7 +153,7 @@ exe on Windows), follow the development steps above.  Then build the
 lddl command line tools:
 
 ```bash
-cd code/decrediton
+cd code/legenddigitaliton
 mkdir bin
 cp `which lddld` bin/
 cp `which lddlctl` bin/
@@ -179,7 +179,7 @@ After it is finished it will have the built rpm, deb and tar.gz in the releases/
 
 ## Docker
 
-A docker file for building decrediton is also provided.  With no options it builds for linux on amd64 although it is possible to attempt OSX or arm builds (neither of which have been tested).
+A docker file for building legenddigitaliton is also provided.  With no options it builds for linux on amd64 although it is possible to attempt OSX or arm builds (neither of which have been tested).
 
 ```
 $ ./build-docker.sh <OS> <ARCH>
@@ -197,9 +197,9 @@ If you have any further questions you can find us at:
 ## Issue Tracker
 
 The
-[integrated github issue tracker](https://github.com/decred/decrediton/issues)
+[integrated github issue tracker](https://github.com/decred/legenddigitaliton/issues)
 is used for this project.
 
 ## License
 
-decrediton is licensed under the [copyfree](http://copyfree.org) ISC License.
+legenddigitaliton is licensed under the [copyfree](http://copyfree.org) ISC License.
