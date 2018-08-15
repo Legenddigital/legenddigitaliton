@@ -1,6 +1,6 @@
 # legenddigitaliton
 
-[![Build Status](https://travis-ci.org/decred/decrediton.png?branch=master)](https://travis-ci.org/decred/decrediton)
+[![Build Status](https://travis-ci.org/decred/legenddigitaliton.png?branch=master)](https://travis-ci.org/decred/legenddigitaliton)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 legenddigitaliton is a cross-platform GUI for decred written in node.js using
@@ -8,7 +8,7 @@ Electron.
 
 ## Installation
 
-Currently decrediton is available on Windows, Linux, and macOS.
+Currently legenddigitaliton is available on Windows, Linux, and macOS.
 
 legenddigitaliton will NOT use or in any way disrupt the wallet file you may
 already be using at this time.
@@ -32,11 +32,11 @@ sudo dnf -y install libXScrnSaver
 
 On linux you will need to decompress the package:
 ```bash
-tar -xvzf decrediton-X.X.X.tar.gz
+tar -xvzf legenddigitaliton-X.X.X.tar.gz
 ```
 and then run the file:
 ```bash
-./decrediton
+./legenddigitaliton
 ```
 
 This will start lddld and lddlwallet for you.
