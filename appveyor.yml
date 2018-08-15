@@ -19,11 +19,11 @@ install:
   - npm install npm -g
   - go version
   - go env
-  - go get -u -v github.com/decred/lddld
-  - go get -u -v github.com/decred/lddlwallet
+  - go get -u -v github.com/legenddigital/lddld
+  - go get -u -v github.com/legenddigital/lddlwallet
   - go get -u -v github.com/Masterminds/glide
   - go get -u github.com/golang/dep/cmd/dep
-  - cd %GOPATH%\\src\\github.com\\decred\\lddld
+  - cd %GOPATH%\\src\\github.com\\legenddigital\\lddld
   - glide i
   - go install . ./cmd/lddlctl/
   - cd ../lddlwallet

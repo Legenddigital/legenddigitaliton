@@ -1,9 +1,9 @@
 # legenddigitaliton
 
-[![Build Status](https://travis-ci.org/decred/legenddigitaliton.png?branch=master)](https://travis-ci.org/decred/legenddigitaliton)
+[![Build Status](https://travis-ci.org/legenddigital/legenddigitaliton.png?branch=master)](https://travis-ci.org/legenddigital/legenddigitaliton)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
-legenddigitaliton is a cross-platform GUI for decred written in node.js using
+legenddigitaliton is a cross-platform GUI for legenddigital written in node.js using
 Electron.
 
 ## Installation
@@ -13,7 +13,7 @@ Currently legenddigitaliton is available on Windows, Linux, and macOS.
 legenddigitaliton will NOT use or in any way disrupt the wallet file you may
 already be using at this time.
 
-Download the legenddigitaliton release for your operating system on [decred/decred-binaries](https://github.com/decred/decred-binaries/releases).
+Download the legenddigitaliton release for your operating system on [legenddigital/legenddigital-binaries](https://github.com/legenddigital/legenddigital-binaries/releases).
 
 On macOS, Ubuntu (14.04 and later), and recent Debians, there should be
 no additional dependencies needed.
@@ -46,7 +46,7 @@ Applications folder.  Double click on legenddigitaliton.app to start.
 
 You can also install via [brew cask](https://caskroom.github.io):
 ```bash
-brew cask install decrediton
+brew cask install legenddigitaliton
 ```
 
 From there follow the on screen instructions to setup your wallet.
@@ -58,13 +58,13 @@ When running a release version, there are a few options available.
 To see additional debug information (including the output of lddld and lddlwallet) run:
 
 ```
-decrediton --debug
+legenddigitaliton --debug
 ```
 
 To pass additional arguements to lddlwallet (such as to increase the logging level run:
 
 ```
-decrediton --extrawalletargs='-d=debug'
+legenddigitaliton --extrawalletargs='-d=debug'
 ```
 
 ## Developing
@@ -74,8 +74,8 @@ done with electron 1.4.15.
 
 You need to install lddld, lddlwallet and lddlctl.
 
-- [lddld/lddlctl installation instructions](https://github.com/decred/lddld#updating)
-- [lddlwallet installation instructions](https://github.com/decred/lddlwallet#installation-and-updating)
+- [lddld/lddlctl installation instructions](https://github.com/legenddigital/lddld#updating)
+- [lddlwallet installation instructions](https://github.com/legenddigital/lddlwallet#installation-and-updating)
 
 This has been tested on Linux and OSX.
 
@@ -84,8 +84,8 @@ Adjust the following steps for the paths you want to use.
 ``` bash
 mkdir code
 cd code
-git clone https://github.com/decred/decrediton.git
-cd decrediton
+git clone https://github.com/legenddigital/legenddigitaliton.git
+cd legenddigitaliton
 yarn
 mkdir bin/
 cp $GOPATH/bin/lddl* bin/
@@ -93,13 +93,13 @@ yarn dev
 ```
 
 ## Setting up your development environment
-The following steps will help you configure your decrediton development environment and reduce future startup times.
+The following steps will help you configure your legenddigitaliton development environment and reduce future startup times.
 
 ### Wallet
 When you launch legenddigitaliton, you will be prompted to select a wallet to use. Select your wallet or create a new one using the in-app wizard. Be sure to save your seed and make your password memorable.
 
-### Decred Node
-It will be helpful to you to run the Decred node in a separate process and simply attach to it between legenddigitaliton restarts. In order to see the advanced daemon configuration options you open your ```config.json``` and set the ```daemon_start_advanced``` flag to ```true``` as follows:
+### Legenddigital Node
+It will be helpful to you to run the Legenddigital node in a separate process and simply attach to it between legenddigitaliton restarts. In order to see the advanced daemon configuration options you open your ```config.json``` and set the ```daemon_start_advanced``` flag to ```true``` as follows:
 
 ```"daemon_start_advanced": true,```
 
@@ -109,9 +109,9 @@ Windows - ```C:\Users\<your-username>\AppData\Local\legenddigitaliton\config.jso
 
 OSX - ```$HOME/Library/Application\ Support/legenddigitaliton/config.json```
 
-Linux - ```~/.config/decrediton/config.json```
+Linux - ```~/.config/legenddigitaliton/config.json```
 
-Run the following to start the Decred daemon in a standalone terminal window:
+Run the following to start the Legenddigital daemon in a standalone terminal window:
 
 Windows - ```lddld --testnet -u USER -P PASSWORD --rpclisten=127.0.0.1:19119 --rpccert=C:\Users\<username>\AppData\Local\Lddld\rpc.cert```
 
@@ -145,10 +145,10 @@ Then build grpc as described above.
 
 You need to install lddld, lddlwallet and lddlctl.
 
-- [lddld/lddlctl installation instructions](https://github.com/decred/lddld#updating)
-- [lddlwallet installation instructions](https://github.com/decred/lddlwallet#installation-and-updating)
+- [lddld/lddlctl installation instructions](https://github.com/legenddigital/lddld#updating)
+- [lddlwallet installation instructions](https://github.com/legenddigital/lddlwallet#installation-and-updating)
 
-To build a packaged version of decrediton (including a dmg on OSX and
+To build a packaged version of legenddigitaliton (including a dmg on OSX and
 exe on Windows), follow the development steps above.  Then build the
 lddl command line tools:
 
@@ -189,15 +189,15 @@ $ ./build-docker.sh <OS> <ARCH>
 
 If you have any further questions you can find us at:
 
-- irc.freenode.net (channel #decred)
-- [webchat](https://webchat.freenode.net/?channels=decred)
-- forum.decred.org
-- decred.slack.com
+- irc.freenode.net (channel #legenddigital)
+- [webchat](https://webchat.freenode.net/?channels=legenddigital)
+- forum.legenddigital.org
+- legenddigital.slack.com
 
 ## Issue Tracker
 
 The
-[integrated github issue tracker](https://github.com/decred/legenddigitaliton/issues)
+[integrated github issue tracker](https://github.com/legenddigital/legenddigitaliton/issues)
 is used for this project.
 
 ## License

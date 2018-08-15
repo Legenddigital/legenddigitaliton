@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Decrediton
-Comment=Decrediton the Decred wallet
-Exec=decrediton %U
+Comment=Decrediton the Legenddigital wallet
+Exec=legenddigitaliton %U
 Terminal=false
 Type=Application
-Icon=decred
-MimeType=x-scheme-handler/decred;
+Icon=legenddigital
+MimeType=x-scheme-handler/legenddigital;
 Categories=Office;Finance;

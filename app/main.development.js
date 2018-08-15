@@ -15,7 +15,7 @@ import { appDataDirectory, getLddldPath, lddlctlCfg, lddldCfg, getDefaultWalletF
 import { lddlwalletCfg, getWalletPath, getExecutablePath, getWalletsDirectoryPath, getWalletsDirectoryPathNetwork, getDefaultWalletDirectory } from "./main_dev/paths";
 import { getGlobalCfgPath, getDecreditonWalletDBPath, getWalletDBPathFromWallets, getLddldRpcCert, getDirectoryLogs } from "./main_dev/paths";
 
-// setPath as decrediton
+// setPath as legenddigitaliton
 app.setPath("userData", appDataDirectory());
 
 const argv = parseArgs(process.argv.slice(1), OPTIONS);
@@ -166,7 +166,7 @@ async function cleanShutdown() {
     // Sent shutdown message again as we have seen it missed in the past if they
     // are still running.
     setTimeout(function () { closeClis(); }, cliShutDownPause * 1000);
-    logger.log("info", "Closing decrediton.");
+    logger.log("info", "Closing legenddigitaliton.");
 
     let shutdownTimer = setInterval(function(){
       const stillRunning = (require("is-running")(lddldPID) && os.platform() != "win32");
@@ -374,8 +374,8 @@ ipcMain.on("get-lddlwallet-logs", (event) => {
   event.returnValue = lddlwalletLogs;
 });
 
-ipcMain.on("get-decrediton-logs", (event) => {
-  event.returnValue = "decrediton logs!";
+ipcMain.on("get-legenddigitaliton-logs", (event) => {
+  event.returnValue = "legenddigitaliton logs!";
 });
 
 function lastLogLine(log) {
@@ -592,7 +592,7 @@ const launchDCRWallet = (walletPath, testnet) => {
   // waitForGrpcPortListener is added as a stdout on("data") listener only on
   // win32 because so far that's the only way we found to get back the grpc port
   // on that platform. For linux/macOS users, the --pipetx argument is used to
-  // provide a pipe back to decrediton, which reads the grpc port in a secure and
+  // provide a pipe back to legenddigitaliton, which reads the grpc port in a secure and
   // reliable way.
   const waitForGrpcPortListener = (data) => {
     const matches = /DCRW: gRPC server listening on [^ ]+:(\d+)/.exec(data);
@@ -621,7 +621,7 @@ const readExesVersion = () => {
   let exes = [ "lddld", "lddlwallet", "lddlctl" ];
   let versions = {
     grpc: grpcVersions,
-    decrediton: app.getVersion()
+    legenddigitaliton: app.getVersion()
   };
 
   for (let exe of exes) {
@@ -662,7 +662,7 @@ if (stopSecondInstance) {
 app.on("ready", async () => {
 
   // when installing (on first run) locale will be empty. Determine the user's
-  // OS locale and set that as decrediton's locale.
+  // OS locale and set that as legenddigitaliton's locale.
   let cfgLocale = globalCfg.get("locale", "");
   let locale = locales.find(value => value.key === cfgLocale);
   if (!locale) {
@@ -738,7 +738,7 @@ app.on("ready", async () => {
 
   if (process.platform === "darwin") {
     template = [ {
-      label: locale.messages["appMenu.decrediton"],
+      label: locale.messages["appMenu.legenddigitaliton"],
       submenu: [ {
         label: locale.messages["appMenu.aboutDecrediton"],
         selector: "orderFrontStandardAboutPanel:"
@@ -876,22 +876,22 @@ app.on("ready", async () => {
       submenu: [ {
         label: locale.messages["appMenu.learnMore"],
         click() {
-          shell.openExternal("https://decred.org");
+          shell.openExternal("https://legenddigital.org");
         }
       }, {
         label: locale.messages["appMenu.documentation"],
         click() {
-          shell.openExternal("https://github.com/decred/decrediton");
+          shell.openExternal("https://github.com/legenddigital/legenddigitaliton");
         }
       }, {
         label: locale.messages["appMenu.communityDiscussions"],
         click() {
-          shell.openExternal("https://forum.decred.org");
+          shell.openExternal("https://forum.legenddigital.org");
         }
       }, {
         label: locale.messages["appMenu.searchIssues"],
         click() {
-          shell.openExternal("https://github.com/decred/decrediton/issues");
+          shell.openExternal("https://github.com/legenddigital/legenddigitaliton/issues");
         }
       }, {
         label: locale.messages["appMenu.about"],

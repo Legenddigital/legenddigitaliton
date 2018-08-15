@@ -763,11 +763,11 @@ msgstr "Trazer Todos para Frente"
 
 #. [home.noTransactions.buyFromExchanges]
 #. defaultMessage is:
-#. Buy Decred from Exchanges
+#. Buy Legenddigital from Exchanges
 #: app/i18n/extracted/app/components/views/HomePage/tables/NoTransactionsLinks.json
 msgctxt "home.noTransactions.buyFromExchanges"
-msgid "Buy Decred from Exchanges"
-msgstr "Comprar Decred de Corretoras"
+msgid "Buy Legenddigital from Exchanges"
+msgstr "Comprar Legenddigital de Corretoras"
 
 #. [fileBrowserTypes.csv.name]
 #. defaultMessage is:
@@ -868,7 +868,7 @@ msgstr "Mudar sua senha"
 #. [tutorial.step.3.text.p3]
 #. defaultMessage is:
 #. Changes are inevitable for all digital currencies, whether deciding on
-#. development matters or resolving unexpected problems. Decred’s innovative
+#. development matters or resolving unexpected problems. Legenddigital’s innovative
 #. governance system is built into the blockchain. This allows for seamless
 #. adaption to changes while keeping the existing blockchain ecosystem safe.
 #. The same tickets are also used as voting power when deciding on consensus
@@ -877,7 +877,7 @@ msgstr "Mudar sua senha"
 msgctxt "tutorial.step.3.text.p3"
 msgid ""
 "Changes are inevitable for all digital currencies, whether deciding on "
-"development matters or resolving unexpected problems. Decred’s innovative "
+"development matters or resolving unexpected problems. Legenddigital’s innovative "
 "governance system is built into the blockchain. This allows for seamless "
 "adaption to changes while keeping the existing blockchain ecosystem safe. "
 "The same tickets are also used as voting power when deciding on consensus "
@@ -885,7 +885,7 @@ msgid ""
 msgstr ""
 "Mudanças são inevitáveis para todas as moedas digitais, seja para decidir "
 "questões de desenvolvimento ou resolver problemas inesperados. O sistema "
-"inovador de governança da Decred é construído dentro da blockchain. Isso "
+"inovador de governança da Legenddigital é construído dentro da blockchain. Isso "
 "permite que as mudanças sejam adotadas de forma suave, ao mesmo tempo em que"
 " mantém o ecossistema existente da blockchain seguro. Os mesmos tickets "
 "também são tem poder de votação para decidir mudanças das regras de "
@@ -1258,45 +1258,45 @@ msgstr "Dias"
 
 #. [help.constitution.modal.title]
 #. defaultMessage is:
-#. Decred Constitution
+#. Legenddigital Constitution
 #: app/i18n/extracted/app/components/views/HelpPage/LinksTab/index.json
 msgctxt "help.constitution.modal.title"
-msgid "Decred Constitution"
-msgstr "Constituição Decred"
+msgid "Legenddigital Constitution"
+msgstr "Constituição Legenddigital"
 
 #. [tutorial.staking.page1]
 #. defaultMessage is:
-#. Decred holders can participate in the Staking (Proof-of Stake) process by
+#. Legenddigital holders can participate in the Staking (Proof-of Stake) process by
 #. purchasing tickets. These tickets are used to vote on miners’ Proof-of-Work
-#. in order to validate changes to the Decred blockchain, or on governance
+#. in order to validate changes to the Legenddigital blockchain, or on governance
 #. proposals within the Politeia system.
 #.   Staking to verify PoW is rewarding, as each cast vote receives part of
-#. the Decred Block Reward. Typically, five tickets are included in each
+#. the Legenddigital Block Reward. Typically, five tickets are included in each
 #. block, meaning each ticket holder receives 6% of the total block reward.
 #: app/i18n/extracted/app/components/views/TutorialsPage/Staking/index.json
 msgctxt "tutorial.staking.page1"
 msgid ""
-"Decred holders can participate in the Staking (Proof-of Stake) process by purchasing tickets. These tickets are used to vote on miners’ Proof-of-Work in order to validate changes to the Decred blockchain, or on governance proposals within the Politeia system.\n"
+"Legenddigital holders can participate in the Staking (Proof-of Stake) process by purchasing tickets. These tickets are used to vote on miners’ Proof-of-Work in order to validate changes to the Legenddigital blockchain, or on governance proposals within the Politeia system.\n"
 "\n"
-"  Staking to verify PoW is rewarding, as each cast vote receives part of the Decred Block Reward. Typically, five tickets are included in each block, meaning each ticket holder receives 6% of the total block reward."
+"  Staking to verify PoW is rewarding, as each cast vote receives part of the Legenddigital Block Reward. Typically, five tickets are included in each block, meaning each ticket holder receives 6% of the total block reward."
 msgstr ""
-"Pessoas com Decred podem participar no processo de Staking (Proof-of-Stake) através da compra de tickets. Esses tickets são usados para votar na prova de trabalho (PoW) dos mineradores para validar as mudanças a blockchain da Decred, ou em propostas de governança no sistema Politeia.\n"
+"Pessoas com Legenddigital podem participar no processo de Staking (Proof-of-Stake) através da compra de tickets. Esses tickets são usados para votar na prova de trabalho (PoW) dos mineradores para validar as mudanças a blockchain da Legenddigital, ou em propostas de governança no sistema Politeia.\n"
 "\n"
 "Realizar staking para verificar o PoW é recompensador, pois cada voto recebe uma parte da Recompensa de Bloco. Normalmente, cinco tickets são incluídos em cada bloco, o que significa que cada votante recebe 6% da recompensa total do bloco."
 
 #. [tutorial.step.0.text.p3]
 #. defaultMessage is:
-#. Decred uses an innovative hybrid proof-of-work (PoW) proof-of-stake (PoS)
+#. Legenddigital uses an innovative hybrid proof-of-work (PoW) proof-of-stake (PoS)
 #. for validating the transactions, keeping the network secure and making
 #. decisions on the consensus rules.
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.0.text.p3"
 msgid ""
-"Decred uses an innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) "
+"Legenddigital uses an innovative hybrid proof-of-work (PoW) proof-of-stake (PoS) "
 "for validating the transactions, keeping the network secure and making "
 "decisions on the consensus rules."
 msgstr ""
-"Decred usa um sistema inovador híbrido de proof-of-work (PoW) e proof-of-"
+"Legenddigital usa um sistema inovador híbrido de proof-of-work (PoW) e proof-of-"
 "stake (PoS) para validar as transações, manter a rede segura e realizar "
 "decisões sobre as regras de consenso."
 
@@ -2262,18 +2262,18 @@ msgstr ""
 #. defaultMessage is:
 #. If the wallet encryption passphrase is forgotten or the wallet is destroyed
 #. (e.g. computer breaks), the seed can be used to recover the wallet. Same
-#. seed can also be used to export your wallet to other Decred wallet clients.
+#. seed can also be used to export your wallet to other Legenddigital wallet clients.
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.2.text.p3"
 msgid ""
 "If the wallet encryption passphrase is forgotten or the wallet is destroyed "
 "(e.g. computer breaks), the seed can be used to recover the wallet. Same "
-"seed can also be used to export your wallet to other Decred wallet clients."
+"seed can also be used to export your wallet to other Legenddigital wallet clients."
 msgstr ""
 "Se a senha de criptografia da carteira é perdida ou se a carteira é "
 "destruída (ex: o computador quebrou), a seed pode ser usada para recuperar a"
 " carteira. A mesma seed também pode ser usada para exportar sua carteira "
-"para outros softwares de carteira Decred."
+"para outros softwares de carteira Legenddigital."
 
 #. [getStarted.firstTimeSyncDelayReminder]
 #. defaultMessage is:
@@ -2402,15 +2402,15 @@ msgstr "A importação de scripts fica desabilitada durante um rescan"
 #. [tutorial.step.0.text.p4]
 #. defaultMessage is:
 #. In return for participation, miners (PoW) and stakers (PoS) are rewarded
-#. with newly generated Decred tokens.
+#. with newly generated Legenddigital tokens.
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.0.text.p4"
 msgid ""
 "In return for participation, miners (PoW) and stakers (PoS) are rewarded "
-"with newly generated Decred tokens."
+"with newly generated Legenddigital tokens."
 msgstr ""
 "Em retorno por participação, mineradores (PoW) e stakers (PoS) são "
-"recompensados com novos tokens Decred."
+"recompensados com novos tokens Legenddigital."
 
 #. [sidebar.rescanBtn.tip]
 #. defaultMessage is:
@@ -2483,15 +2483,15 @@ msgstr ""
 
 #. [tutorial.step.1.text.p1]
 #. defaultMessage is:
-#. It can be used to send and receive Decred funds, and acts as a personal
+#. It can be used to send and receive Legenddigital funds, and acts as a personal
 #. ledger of transactions.
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.1.text.p1"
 msgid ""
-"It can be used to send and receive Decred funds, and acts as a personal "
+"It can be used to send and receive Legenddigital funds, and acts as a personal "
 "ledger of transactions."
 msgstr ""
-"Pode ser usada para enviar e receber fundos Decred, e funciona como um "
+"Pode ser usada para enviar e receber fundos Legenddigital, e funciona como um "
 "registro pessoal das transações."
 
 #. [tutorial.step.2.title]
@@ -2549,11 +2549,11 @@ msgstr "Saber Mais"
 
 #. [help.description.tutorials]
 #. defaultMessage is:
-#. Learn about the various aspects of the Decred network.
+#. Learn about the various aspects of the Legenddigital network.
 #: app/i18n/extracted/app/components/views/HelpPage/TutorialsTab/index.json
 msgctxt "help.description.tutorials"
-msgid "Learn about the various aspects of the Decred network."
-msgstr "Conhecer sobre vários aspectos da rede Decred"
+msgid "Learn about the various aspects of the Legenddigital network."
+msgstr "Conhecer sobre vários aspectos da rede Legenddigital"
 
 #. [getStarted.learnBasics]
 #. defaultMessage is:
@@ -2589,11 +2589,11 @@ msgstr "Tickets Maduros"
 
 #. [getStarted.chainLoading.syncEstimation.small]
 #. defaultMessage is:
-#. Loading Decred blockchain, estimated time left
+#. Loading Legenddigital blockchain, estimated time left
 #: app/i18n/extracted/app/components/indicators/LoaderBarBottom.json
 msgctxt "getStarted.chainLoading.syncEstimation.small"
-msgid "Loading Decred blockchain, estimated time left"
-msgstr "Carregando a blockchain Decred, tempo restante estimado"
+msgid "Loading Legenddigital blockchain, estimated time left"
+msgstr "Carregando a blockchain Legenddigital, tempo restante estimado"
 
 #. [history.loadingMoreTransactions]
 #. defaultMessage is:
@@ -2681,13 +2681,13 @@ msgstr "Logs"
 
 #. [transactions.description.send.mainnet]
 #. defaultMessage is:
-#. Mainnet Decred addresses always begin with letter D and contain 26-35
+#. Mainnet Legenddigital addresses always begin with letter D and contain 26-35
 #. alphanumeric characters
 #. (e.g. DxxXXXXXxXXXxXXXXxxx0XxXXXxxXxXxX0X).
 #: app/i18n/extracted/app/components/views/TransactionsPage/SendTab/index.json
 msgctxt "transactions.description.send.mainnet"
 msgid ""
-"Mainnet Decred addresses always begin with letter D and contain 26-35 alphanumeric characters\n"
+"Mainnet Legenddigital addresses always begin with letter D and contain 26-35 alphanumeric characters\n"
 "(e.g. DxxXXXXXxXXXxXXXXxxx0XxXXXxxXxXxX0X)."
 msgstr ""
 "Endereços da mainnet sempre começam com a letra D e contém 26-35 caracteres alfanuméricos\n"
@@ -3127,11 +3127,11 @@ msgstr "Endereço é da Carteira!"
 
 #. [tutorial.step.3.text.p1]
 #. defaultMessage is:
-#. Participation in staking (PoS) requires only existing Decred funds.
+#. Participation in staking (PoS) requires only existing Legenddigital funds.
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.3.text.p1"
-msgid "Participation in staking (PoS) requires only existing Decred funds."
-msgstr "Participação em staking (PoS) requer apenas fundos Decred existentes"
+msgid "Participation in staking (PoS) requires only existing Legenddigital funds."
+msgstr "Participação em staking (PoS) requer apenas fundos Legenddigital existentes"
 
 #. [appMenu.paste]
 #. defaultMessage is:
@@ -3467,18 +3467,18 @@ msgstr "Retransmitir"
 #. [send.rebroadcastTooltip]
 #. defaultMessage is:
 #. Rebroadcasting transactions may help in situations when a transaction has
-#. been sent to a node that had poor connectivity to the general Decred
+#. been sent to a node that had poor connectivity to the general Legenddigital
 #. network.
 #: app/i18n/extracted/app/components/views/TransactionsPage/SendTab/Page.json
 msgctxt "send.rebroadcastTooltip"
 msgid ""
 "Rebroadcasting transactions may help in situations when a transaction has "
-"been sent to a node that had poor connectivity to the general Decred "
+"been sent to a node that had poor connectivity to the general Legenddigital "
 "network."
 msgstr ""
 "Retransmitir transações pode ajudar em situações quando uma transação é "
 "enviada a um nó da rede que tinha conectividade ruim ao resto da rede "
-"Decred."
+"Legenddigital."
 
 #. [notifications.type.receive]
 #. defaultMessage is:
@@ -4272,17 +4272,17 @@ msgstr "Governança e Staking"
 
 #. [tutorial.step.3.text.p4]
 #. defaultMessage is:
-#. Staking encourages long term investment in Decred by giving the
+#. Staking encourages long term investment in Legenddigital by giving the
 #. stakeholders decision-making power in projects governance as well rewarding
 #. them for participation.
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.3.text.p4"
 msgid ""
-"Staking encourages long term investment in Decred by giving the stakeholders"
+"Staking encourages long term investment in Legenddigital by giving the stakeholders"
 " decision-making power in projects governance as well rewarding them for "
 "participation."
 msgstr ""
-"Staking encoraja um investimento de longo prazo na Decred ao proporcionar "
+"Staking encoraja um investimento de longo prazo na Legenddigital ao proporcionar "
 "aos participantes (stakeholders) poder de decisão sobre a governança, além "
 "de recompensá-los pela participação."
 
@@ -4386,16 +4386,16 @@ msgstr ""
 
 #. [transactions.description.send.testnet]
 #. defaultMessage is:
-#. Testnet Decred addresses always begin with letter T and contain 26-35
+#. Testnet Legenddigital addresses always begin with letter T and contain 26-35
 #. alphanumeric characters
 #. (e.g. TxxXXXXXxXXXxXXXXxxx0XxXXXxxXxXxX0).
 #: app/i18n/extracted/app/components/views/TransactionsPage/SendTab/index.json
 msgctxt "transactions.description.send.testnet"
 msgid ""
-"Testnet Decred addresses always begin with letter T and contain 26-35 alphanumeric characters\n"
+"Testnet Legenddigital addresses always begin with letter T and contain 26-35 alphanumeric characters\n"
 "(e.g. TxxXXXXXxXXXxXXXXxxx0XxXXXxxXxXxX0)."
 msgstr ""
-"Endereços Decred da testnet sempre começam com a letra T e contém 26-35 caracteres alfanuméricos\n"
+"Endereços Legenddigital da testnet sempre começam com a letra T e contém 26-35 caracteres alfanuméricos\n"
 "(ex. TxxXXXXXxXXXxXXXXxxx0XxXXXxxXxXxX0)."
 
 #. [invalidRPCVersion.info]
@@ -4423,11 +4423,11 @@ msgstr ""
 
 #. [tickets.info.votingAddress.message]
 #. defaultMessage is:
-#. The Decred address that will do the voting.
+#. The Legenddigital address that will do the voting.
 #: app/i18n/extracted/app/components/modals/PurchaseTicketsInfoModalContent.json
 msgctxt "tickets.info.votingAddress.message"
-msgid "The Decred address that will do the voting."
-msgstr "O endereço Decred que irá realizar a votação"
+msgid "The Legenddigital address that will do the voting."
+msgstr "O endereço Legenddigital que irá realizar a votação"
 
 #. [tickets.info.poolFeeAddress.message]
 #. defaultMessage is:
@@ -4439,11 +4439,11 @@ msgstr "O endereço para onde a taxa da stakepool será paga."
 
 #. [tutorial.step.0.text.bold.p1]
 #. defaultMessage is:
-#. The blockchain is the heart of Decred,
+#. The blockchain is the heart of Legenddigital,
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.0.text.bold.p1"
-msgid "The blockchain is the heart of Decred,"
-msgstr "A blockchain é o coração da Decred"
+msgid "The blockchain is the heart of Legenddigital,"
+msgstr "A blockchain é o coração da Legenddigital"
 
 #. [tutorial.step.0.text.p2]
 #. defaultMessage is:
@@ -5774,11 +5774,11 @@ msgstr "O que é uma Carteira?"
 
 #. [tutorial.step.0.title]
 #. defaultMessage is:
-#. What is the Decred Blockchain?
+#. What is the Legenddigital Blockchain?
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.0.title"
-msgid "What is the Decred Blockchain?"
-msgstr "O que é a Blockchain Decred?"
+msgid "What is the Legenddigital Blockchain?"
+msgstr "O que é a Blockchain Legenddigital?"
 
 #. [getStarted.whatsNew]
 #. defaultMessage is:
@@ -5819,9 +5819,9 @@ msgstr ""
 #. pool will be taken at the time of voting. All tickets will have the right
 #. to vote on the proposal in an off chain process.
 #.   As block validation is immutable, decisions made on all voted tickets can
-#. be publicly tracked. Active participation in staking helps secure Decred
+#. be publicly tracked. Active participation in staking helps secure Legenddigital
 #. network’s, network, ensure quality Proof-of-Work, and determine the future
-#. direction of Decred.
+#. direction of Legenddigital.
 #: app/i18n/extracted/app/components/views/TutorialsPage/Staking/index.json
 msgctxt "tutorial.staking.page2"
 msgid ""
@@ -5829,13 +5829,13 @@ msgid ""
 "\n"
 "  When a proposal is set for a vote in Politeia, a snapshot of the ticket pool will be taken at the time of voting. All tickets will have the right to vote on the proposal in an off chain process.\n"
 "\n"
-"  As block validation is immutable, decisions made on all voted tickets can be publicly tracked. Active participation in staking helps secure Decred network’s, network, ensure quality Proof-of-Work, and determine the future direction of Decred."
+"  As block validation is immutable, decisions made on all voted tickets can be publicly tracked. Active participation in staking helps secure Legenddigital network’s, network, ensure quality Proof-of-Work, and determine the future direction of Legenddigital."
 msgstr ""
 "Quando um ticket é comprado, o custo do ticket é bloqueado em sua carteira até que o ticket seja usado para votar ou até que ele seja revogado. Tickets entram na mempool e então passam para a ticketpool onde são sorteados para votar de forma aleatória. Existe uma probabilidade de 99.5% de que um ticket irá votar. O ticket médio irá votar em 28 dias, mas tickets que não tenham sido sorteados após 142 dias serão revogados. Os fundos LDDL usados para comprar o ticket são liberados depois deste ter sido votado ou revogado.\n"
 "\n"
 "Quando uma proposta é liberada para votação na Politeia, uma cópia da lista de tickets vivos é feita no momento do início da votação. Todos esses tickets terão direito a votar na proposta em um processo off-chain.\n"
 "\n"
-"Como a validação de blocos é imutável, decisões feitas por todos os tickets que votaram são verificadas publicamente. Participação ativa no processo de staking ajuda a aumentar a segurança da rede da Decred, garante a qualidade da Proof-of-Work e determina a direção futura da Decred."
+"Como a validação de blocos é imutável, decisões feitas por todos os tickets que votaram são verificadas publicamente. Participação ativa no processo de staking ajuda a aumentar a segurança da rede da Legenddigital, garante a qualidade da Proof-of-Work e determina a direção futura da Legenddigital."
 
 #. [tutorial.step.4.text.p6]
 #. defaultMessage is:
@@ -5938,15 +5938,15 @@ msgstr ""
 #. [tutorial.ticketLifecycle.page6]
 #. defaultMessage is:
 #. You should now understand a bit better the lifecycle of a ticket, so start
-#. staking your Decred and participate on the community!
+#. staking your Legenddigital and participate on the community!
 #: app/i18n/extracted/app/components/views/TutorialsPage/TicketLifecycle/index.json
 msgctxt "tutorial.ticketLifecycle.page6"
 msgid ""
 "You should now understand a bit better the lifecycle of a ticket, so start "
-"staking your Decred and participate on the community!"
+"staking your Legenddigital and participate on the community!"
 msgstr ""
 "Você deve entender o ciclo de vida de um ticket um pouco melhor agora, então"
-" comece a realizar staking com seus Decred e participe da comunidade!"
+" comece a realizar staking com seus Legenddigital e participe da comunidade!"
 
 #. [tickets.importScriptHeader]
 #. defaultMessage is:
@@ -6176,19 +6176,19 @@ msgstr "votados"
 #. defaultMessage is:
 #. where all activity that takes place is stored. It is like a global,
 #. decentralised spreadsheet or ledger that records all the activity that
-#. happens when Decred funds are transferred, keeping track of how many tokens
+#. happens when Legenddigital funds are transferred, keeping track of how many tokens
 #. are sent, and what the balance of every account is.
 #: app/i18n/extracted/app/components/views/GetStartedPage/TutorialPage/Page.json
 msgctxt "tutorial.step.0.text.p1"
 msgid ""
 "where all activity that takes place is stored. It is like a global, "
 "decentralised spreadsheet or ledger that records all the activity that "
-"happens when Decred funds are transferred, keeping track of how many tokens "
+"happens when Legenddigital funds are transferred, keeping track of how many tokens "
 "are sent, and what the balance of every account is."
 msgstr ""
 "onde toda a atividade que acontece é armazenada. É como uma planilha global "
 "e decentralizada ou como uma conta que registra toda a atividade que "
-"acontece quando fundos Decred são transferidos, mantendo um registro de "
+"acontece quando fundos Legenddigital são transferidos, mantendo um registro de "
 "quantos tokens são enviados e qual o saldo de cada conta."
 
 #. [transaction.confirmationHeight]
